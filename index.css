@@ -1,0 +1,96 @@
+html,body{
+    width: 100%;
+    height: auto;
+    margin: 0;
+    scrollbar-width: none;
+}
+.navigation{
+    width: 100%;
+    height: 50px;
+    border: 1px solid black;
+    margin-top: 25px;
+    border: none;
+}
+.navkeys a{
+text-decoration: none;
+color: black;
+font-size: 18px;
+padding-left: 40px;
+}
+
+.navkeys a:hover{
+    text-decoration: underline;
+    color: blueviolet;
+}
+/* ----------------------------------- */
+
+
+#emptyspace{
+    border: 1px solid grey;
+    width: 100%;
+    height: 400px;
+}
+
+/* ----------------------------------- */
+
+.section1,.section2{
+    width: 100%;
+    height: 500px;
+    border: 1px solid black;
+    border: none;
+}
+#products,#blog-holder{
+    width: 100%;
+    height: 350px;
+    border: 1px solid black;
+    border: none;
+
+}
+.product1,.blog1{
+    width: 20%;
+    height: 100%;
+    border: 1px solid red;
+    float: left;
+    margin-left: 60px;
+    /* border: none; */
+}
+
+/* ---------------------------------------- */
+
+.product-name,.blog-name{
+    text-transform: capitalize;
+    font-size: 18px;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+}
+.product-description,.blog-description{
+    text-transform: capitalize;
+    font-size: 15px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+/* --------------------------------------------- */
+
+button{
+    width: 100px;
+    height: 30px;
+    border-radius: 5px;
+    background-color: black;
+    color: white;
+    font-size: 17px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.read{
+ width: 150px;
+}
+
+/* --------------------------------------------- */
+
+footer{
+    width: 100%;
+    height: 250px;
+    border: 1px solid black;
+}
+.copyright{
+    margin-left: 85%;
+}
